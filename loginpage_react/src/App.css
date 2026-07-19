@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    background-color: rgb(50, 56, 69);
+    display: flex;
+    justify-content : center;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+    /* background-color: darkmagenta; */
+}
+
+#outerBorder{
+    padding: 30px;
+    background: rgb(95, 102, 116);
+    /* background-color:coral; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+#innerContainer{
+    /* background-color: yellow; */
+    display : flex;
+    border-radius: 10px;
+    flex-direction : column;
+    /* align-items: center; */
+    /* justify-content: center;  */
+
+    margin:10px;
+    /* padding: 30px; */
+}
+#emailIcon , #passwordIcon{
+    position : relative;
+    left:45px;
+    z-index:1;
+}
+input{
+    padding: 14px 50px;
+    border-radius: 20px;
+    margin:auto 10px;
+}
+input::placeholder{
+    /* margin-left: 30px; */
+    padding-left: 10px;
+    font-size : 14px;
+    font-weight: bold;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+#loginButton{
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+    margin:10px;
+    /* max-width: 200px; */
+    padding: 14px 30px;
+    border-radius: 35px;
+    cursor:pointer;
+}
+#loginImage{
+    padding:10px;
+    border-radius: 50%;
+    /* color:grey; */
+    /* border : 3px dashed beige; */
+    height:100px;
+    width:100px;
+}
+#forgotContainer{
+    display:flex;
+    flex-direction:flex-start;
+    margin: 2px;
+    padding: 2px;
+}
+a{
+    /* text-decoration:solid 1px; */
+    color:white;
+}
