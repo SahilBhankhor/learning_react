@@ -1,93 +1,110 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+
 }
 
-:root{
+:root {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html,body{
+html,
+body {
     background-color: rgb(50, 56, 69);
     display: flex;
-    justify-content : center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     /* background-color: darkmagenta; */
 }
 
-#outerBorder{
+#outerBorder {
     padding: 30px;
     background: rgb(95, 102, 116);
     /* background-color:coral; */
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     border: 3px solid black;
     border-radius: 30px;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-#innerContainer{
+
+#innerContainer {
     /* background-color: yellow; */
-    display : flex;
+    display: flex;
     border-radius: 10px;
-    flex-direction : column;
+    flex-direction: column;
     /* align-items: center; */
     /* justify-content: center;  */
 
-    margin:10px;
+    margin: 10px;
     /* padding: 30px; */
 }
-#emailIcon , #passwordIcon{
-    position : relative;
-    left:45px;
-    z-index:1;
+
+#emailIcon,
+#passwordIcon {
+    position: relative;
+    left: 45px;
+    z-index: 1;
 }
-input{
+
+input {
     padding: 14px 50px;
     border-radius: 20px;
-    margin:auto 10px;
+    margin: auto 10px;
+    border: 3px solid;
 }
-input::placeholder{
+
+input::placeholder {
     /* margin-left: 30px; */
     padding-left: 10px;
-    font-size : 14px;
+    font-size: 14px;
+    color: black;
     font-weight: bold;
 }
-input:focus::placeholder{
-    color:transparent;
+
+input:focus::placeholder {
+    color: transparent;
 }
-#loginButton{
+
+#loginButton {
     font-size: 16px;
     font-weight: bold;
     align-self: center;
-    margin:10px;
+    margin: 10px;
+    border: 3px solid;
     /* max-width: 200px; */
     padding: 14px 30px;
     border-radius: 35px;
-    cursor:pointer;
+    cursor: pointer;
 }
-#loginImage{
-    padding:10px;
+
+#loginImage {
+    padding: 10px;
     border-radius: 50%;
     /* color:grey; */
     /* border : 3px dashed beige; */
-    height:100px;
-    width:100px;
+    height: 100px;
+    width: 100px;
 }
-#forgotContainer{
-    display:flex;
-    flex-direction:flex-start;
+
+#forgotContainer {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
     margin: 2px;
     padding: 2px;
 }
-a{
-    /* text-decoration:solid 1px; */
-    color:white;
+
+#forgotContainer a {
+
+    color: white;
+    align-self: center;
 }
